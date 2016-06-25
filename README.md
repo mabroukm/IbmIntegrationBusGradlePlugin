@@ -9,8 +9,9 @@ With minimum settings, the plugin can be setup to include specific workspace pro
 3. 'deploy' deploys the generated bar. If neither remote nor local broker is specific, the task deploys the BAR file to the local broker.
 
 #### How to use it
-1. Create a directory in your workspace.
-2. Copy the below code to your "build.gradle" file.
+1- Create a directory in your workspace.
+
+2- Copy the below code to your "build.gradle" file.
 ```
 repositories {
     mavenCentral()
@@ -38,5 +39,6 @@ iib {
 	executionGroup='default'
    }
 ```
+3- The `gradle deploy` command must run from **IBM Integration Console**
 
 > **Please feel free to suggest or comment or directly contribute to the plugin.**
