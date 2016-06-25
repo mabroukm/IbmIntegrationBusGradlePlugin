@@ -39,4 +39,4 @@ iib {
    }
 ```
 
-**Please feel free to suggest or comment or directly contribute to the plugin functions
+> **Please feel free to suggest or comment or directly contribute to the plugin.**
